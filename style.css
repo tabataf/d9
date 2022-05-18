@@ -1,0 +1,141 @@
+* {
+    font-family: poppins;
+    font-weight: 400;
+}
+
+body {
+        background-image: linear-gradient(180deg, #ffffff, #fdf8f3);
+}
+
+.cabecalho {
+    background-color: #bdbcb54d;
+    padding-bottom: 1rem;
+    display: flex;
+}
+
+.seta {
+    font-size: 4rem;
+    margin-left: 0rem;
+    display: flex;
+    font-weight: bold;
+    color: rgb(156, 150, 144);
+    margin-left: 1rem;
+    
+}
+
+
+.name {
+    font-weight: 800;
+    font-size: 7rem;
+    color: rgb(0, 0, 0);
+    justify-content: space-around;
+    line-height: 0.6rem;
+    text-transform: uppercase;
+    margin-left: 2rem;
+}
+
+.sobrenome {
+    font-size: 3rem;
+    display: flex;
+    justify-content: space-around;
+    text-transform: uppercase;
+}
+
+.imagem {
+    width: 17rem;
+    border-radius: 130px;
+    margin-top: 5rem;
+    cursor: pointer;
+    margin-left: 1rem;
+    margin-bottom: 5rem;
+
+}
+
+.imagem:hover{
+    opacity: 50%;
+}
+
+.imagem:hover{
+    opacity: 80%;
+}
+
+.head-1 {
+    display: flex;
+    margin: 5rem 1rem 0rem 5rem;
+    
+}
+
+.nomes {
+    margin-top: 10rem;
+
+}
+
+.linha {
+    background-color: black;
+    width: 20%;
+    height: 2px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.container-linha {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons {
+  display: flex;
+  width: 3rem;
+  height: 3rem;
+  
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.imagens {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: row;
+    opacity: 60%;
+}
+
+.imagens img{
+    padding: 1rem;
+    
+}
+
+.imagem2{
+    width: 17rem;
+    border-radius: 130px;
+    margin-top: 10rem;
+    cursor: pointer;
+    margin-left: 1rem;
+    margin-bottom: 5rem;
+    background-color: rgb(183, 172, 142);
+    width: 25rem;
+    height: 20rem;
+}
+
+.meme1 {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 3rem;
+}
+
+.sobre-mim {
+    display: flex;
+    font-size: 2rem;
+    margin-left: 5rem;
+    margin-right: 1rem;
+}
+
+.subtitulos {
+    font-weight: bold;
+    font-size: 3rem;
+    margin-left: 5rem;
+}

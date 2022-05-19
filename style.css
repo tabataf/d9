@@ -2,9 +2,12 @@
     font-family: poppins;
     font-weight: 400;
 }
-
+html{
+    min-height: 200vh;
+}
 body {
-        background-image: linear-gradient(180deg, #ffffff, #fdf8f3);
+     background-image: linear-gradient(180deg, #edebe9, #d8c7b8);
+     
 }
 
 .cabecalho {
@@ -110,21 +113,20 @@ body {
 }
 
 .imagem2{
-    width: 17rem;
     border-radius: 130px;
     margin-top: 10rem;
     cursor: pointer;
     margin-left: 1rem;
-    margin-bottom: 5rem;
     background-color: rgb(183, 172, 142);
-    width: 25rem;
-    height: 20rem;
+    width: 230px;
+    height: 320px;
 }
 
 .meme1 {
     display: flex;
     justify-content: flex-end;
     margin-right: 3rem;
+    min-height: auto;
 }
 
 .sobre-mim {
@@ -138,4 +140,43 @@ body {
     font-weight: bold;
     font-size: 3rem;
     margin-left: 5rem;
+}
+
+.imagem3{
+    border-radius: 162px;
+    width: 22rem;
+    height: 26rem;
+    margin-bottom: 4rem;
+    margin-right: 3rem;
+}
+
+.hab {
+    flex-direction: column;
+    align-items: flex-end;
+    margin-top: 3rem;
+    list-style-type: none;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+.hab li {
+    font-size: 2rem;
+}
+
+.tabela {
+    column-count: 1;
+    column-gap: 9px;
+    text-align: right;
+}
+
+.skills {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    align-items: end;
+}
+
+.projeto {
+    margin-top: 6rem;
+    text-align: center;
 }

@@ -180,3 +180,34 @@ body {
     margin-top: 6rem;
     text-align: center;
 }
+
+.paginas-projeto {
+    margin-top: 3rem;
+    display: flex;
+}
+
+.projetos {
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+.buser {
+    width: 20rem;
+    margin-bottom: 2rem;
+    margin-right: 2rem;
+}
+
+.enzo {
+    width: 20rem;
+}
+
+.music{
+    width: 28.5rem;
+    margin-bottom: 2rem;
+}
+
+.qr-code {
+    width: 28.5rem;
+}
+

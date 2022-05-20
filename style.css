@@ -178,7 +178,7 @@ body {
 
 .projeto {
     margin-top: 6rem;
-    text-align: center;
+    text-align:start;
 }
 
 .paginas-projeto {
@@ -195,26 +195,28 @@ body {
 .buser {
     width: 20rem;
     margin-bottom: 2rem;
-    margin-right: 2rem;
+    margin-right: 3rem;
     border-radius: 15px;
 }
 .buser:hover
 {
-        -webkit-transform: scale(1.3);
-        -ms-transform: scale(1.3);
-        transform: scale(1.2);
+    -webkit-transform: scale(0.4);
+    -ms-transform: scale(0.4);
+    transform: scale(0.9);
+}
 }
 .enzo{
     width: 20rem;
-    margin-bottom: 3rem;
+    margin-bottom: 6rem;
     border-radius: 15px;
+    margin-bottom: 5rem;
 }
 
 .enzo:hover
 {
-        -webkit-transform: scale(1.3);
-        -ms-transform: scale(1.3);
-        transform: scale(1.2);
+    -webkit-transform: scale(0.4);
+    -ms-transform: scale(0.4);
+    transform: scale(0.9);
 }
 
 .music{
@@ -224,20 +226,22 @@ body {
 }
 
 .music:hover{
-        -webkit-transform: scale(1.3);
-        -ms-transform: scale(1.3);
-        transform: scale(1.2);
-    }
+    -webkit-transform: scale(0.4);
+    -ms-transform: scale(0.4);
+    transform: scale(0.9);
+}
+    
 .qr-code {
     width: 28.5rem;
     border-radius: 15px;
+    
 }
 
 .qr-code:hover
 {
-        -webkit-transform: scale(1.3);
-        -ms-transform: scale(1.3);
-        transform: scale(1.2);
+        -webkit-transform: scale(0.4);
+        -ms-transform: scale(0.4);
+        transform: scale(0.9);
 }
 
 
@@ -267,4 +271,33 @@ body {
     to {
       border-color: transparent;
     }
+  }
+
+  .rodape {
+    display: flex;
+    font-size: 1rem;
+    margin-right: 1rem;
+    margin-left: 0.5rem;
+    margin-top: 1.7rem;
+  }
+
+  .imagens-icons {
+    opacity: 60%;
+    width: 3rem;
+    margin-left: 0.6rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .container{
+      display: flex;
+      background-color: #f9f9f9;
+     
+  }
+
+  .subtitulos-rodape {
+    font-weight: bold;
+    font-size: 3rem;
+    text-align: center;
+    background-color: #f9f9f9;
   }
